@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Larsseit";
+    src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 900;
+}
+
+body {
+    font-family: Roboto;
+}
+
+h1 {
+    font-family: Lato;
+    font-weight: 900;
+    color:red;
+}
+
+ul {
+    font-family: Larrseit;
+    font-weight: 700;
+    color:coral; 
+}
+
+ul a {
+    color:cornflowerblue;
+}
+
+h2 {
+    font-family: Lato;
+    color:darkblue; 
+    font-weight: 900;
+}
+
+.canyon p {
+    font-family: Larrseit;
+    color:darkslateblue;
+}
+
+.bakota h2 {
+    color:forestgreen;
+}
+
+.bakota h2 ~ p {
+    font-family: Larrseit;
+    color: red;
+}
+
+.granite-canyon h2 {
+    color:indianred;
+}
+
+.granite-canyon p {
+    font-weight: 500;
+    color:darkolivegreen;
+}
+
+.waterfall>p {
+    font-family: Lato;
+    font-weight: 900;
+    color:mediumpurple;
+}
+
+.dnistrovsky-canyon>h3 {
+    color:maroon;
+}
+
+.dnistrovsky-canyon p {
+    font-family: Lato;
+    font-weight: 700;
+    color:slateblue;
+}
+
+.schonborn-castle {
+    font-family: Larrseit;
+    color:forestgreen
+}
+
+.schonborn-castle > .lorem {
+    font-family: Larrseit;
+    color:burlywood;
+}
+
+.land-park h2{
+    font-family: Larrseit;
+    color:darkkhaki;
+}
+
+.land-park p {
+    font-weight: 700;
+}
+
+.land-park>.ipsum {
+    font-family: Lato;
+    color:crimson;
+}
+
+.sand h2 {
+    font-family: Larrseit;
+    font-weight: 700;
+    color:crimson;
+}
+
+.sand p {
+    font-family: Lato;
+    color:chocolate;
+}
+
+.sand > .example {
+    font-weight: 700;
+    color: darkolivegreen;
+}
+
+.cave h2 {
+    font-family: Larrseit;
+    font-weight: 700;
+    color: crimson;
+}
+
+.cave p {
+    color:cornflowerblue;
+}
+
+.cave > .dolor {
+    color:darkgoldenrod;
+}
+
+footer {
+    color:burlywood; 
+}
+
+
+
+
+
+
+
+
+
+
+
